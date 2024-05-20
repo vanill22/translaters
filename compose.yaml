@@ -30,7 +30,7 @@ services:
     volumes:
       - ./www:/var/www
       - ./my.cnf:/etc/mysql/conf.d/my.cnf
-      - db_mysql:/var/lib/mysql
+      - ./db_mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: yii
       MYSQL_USER: yii

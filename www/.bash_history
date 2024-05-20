@@ -13,3 +13,7 @@ php yii
 php yii migrate
 php yii migrate
 exit
+ls -la
+cd yii-project/
+php yii migrate
+exit
