@@ -40,6 +40,8 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'translator' => 'translator/index',
+                'translator/list' => 'translator/list',
             ],
         ],
     ],
