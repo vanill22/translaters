@@ -21,7 +21,7 @@ docker-compose up -d --build
 ```bash
 docker exec -it yii_php bash
 cd yii-project
-0
+composer-install
 ```
 
 ### Шаг 3: Настройка миграций
@@ -38,4 +38,9 @@ cd yii-project
 docker exec -it yii_php bash
 cd yii_project
 php yii migrate
+```
+
+### Шаг 5: host
+```bash
+127.0.0.1 tcrm.test
 ```
