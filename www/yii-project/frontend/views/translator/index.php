@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     filter: '',
                     currentPage: 1,
                     pageCount: 1,
-                    errors[],
+                    errors: [],
                 };
             },
             methods: {
